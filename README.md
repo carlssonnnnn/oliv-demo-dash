@@ -1,2 +1,2 @@
-# oliv-demo-dash
-4 sem demo af deploy GitHub app to Azure
+# kea_dash_fakedata
+Demo af Dash med data fra en Excel fil - Deploy på Azure
