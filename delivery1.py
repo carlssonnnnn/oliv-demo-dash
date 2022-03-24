@@ -1,6 +1,6 @@
-# ***************************************
+# *********
 # Imports
-# ***************************************
+# *********
 # Dash
 import dash
 from dash import html
@@ -19,10 +19,10 @@ import plotly.graph_objects as go
 # ***************************************
 # Get data
 # ***************************************
-import datamodel
-order = datamodel.get_data()
-df_year = datamodel.get_year()
-df_month = datamodel.get_month()
+import delivery1_datamodel
+order = delivery1_datamodel.get_data()
+df_year = delivery1_datamodel.get_year()
+df_month = delivery1_datamodel.get_month()
 
 # ***************************************
 # Diagram - Employee Sales
